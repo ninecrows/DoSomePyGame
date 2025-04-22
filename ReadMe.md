@@ -3,9 +3,9 @@
 
 Restore the python virtual environment and activate before running.
 
-	virtualenv .venv
+	python -m venv .\venv
 	.\.venv\Scripts\Activate
-	pip install -rrequirements.txt
+	pip install -r requirements.txt
 
 Freeze the (activated) environment after any update and before saving
 using:
